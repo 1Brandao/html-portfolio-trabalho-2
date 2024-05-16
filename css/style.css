@@ -426,6 +426,14 @@ footer p {
 }
 
 @media (max-width: 1064px) {
+  /* INICIO NAVBAR */
+  .nav {
+    justify-content: center;
+    align-items: center;
+  }
+  /* FIM NAVBAR */
+
+  /*INICIO CONTATO */
   .contacts-container {
     width: 90%;
     height: auto;
@@ -449,4 +457,5 @@ footer p {
     font-weight: 600;
     color: #000000c0;
   }
+  /* FIM CONTATO */
 }
