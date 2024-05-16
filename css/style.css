@@ -350,7 +350,7 @@ footer p {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 1050px) {
+@media (max-width: 1330px) {
   /* INICIO MAIN */
   .main h1 {
     font-size: 45px;
@@ -394,6 +394,21 @@ footer p {
   }
   /* FIM PROJETOS */
 
+  /*INICIO CONTATO */
+
+  .form-image {
+    display: none;
+  }
+
+  .contacts-container {
+    width: 50%;
+  }
+
+  .form {
+    width: 100%;
+  }
+  /* FIM CONTATO */
+
   /* INICIO RODAPE */
   footer {
     flex-direction: column;
@@ -408,4 +423,30 @@ footer p {
     margin: 0;
   }
   /* FIM RODAPE */
+}
+
+@media (max-width: 1064px) {
+  .contacts-container {
+    width: 90%;
+    height: auto;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-box input {
+    margin: 0.6rem 0rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+  }
+
+  .input-box label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000c0;
+  }
 }
